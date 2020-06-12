@@ -23,4 +23,9 @@ void Awake()
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void main_menu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
 }
